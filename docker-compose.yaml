@@ -3,3 +3,7 @@ services:
     image: nginx:latest
     ports:
       - "88:80"
+
+  app:
+    build:
+      dockerfile: ./php/Dockerfile 
