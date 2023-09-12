@@ -1,12 +1,12 @@
 {
-    "name": "garyclarke/translatethis",
+    "name": "eduardo-rogerio/translatethis",
     "description": "A Docker demo app for garyclarke.tech",
     "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
-            "name": "Gary Clarke",
-            "email": "info@garyclarke.tech"
+            "name": "Eduardo Rogerio",
+            "email": "eduardorogerio@protonmail.com"
         }
     ],
     "require": {
