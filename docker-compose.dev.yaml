@@ -11,19 +11,25 @@ services:
     volumes:
       - ./app:/var/www/html
       - /var/www/html/vendor  
+    environment:
+      MYSQL_HOST: db
+      MYSQL_PORT: ${MYSQL_PORT}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
 
   db:
     image: mysql:8.0
     volumes:
-      - mysqldata:/var/lib/mysql
-    ports:
+      - mysqldata:/var/lib/mysql 
+    ports: 
       - "4306:3306" 
     restart: unless-stopped
     environment:
-      MYSQL_ROOT_PASSWORD: secret
-      MYSQL_USER: user
-      MYSQL_PASSWORD: secret
-      MYSQL_DATABASE: docker-php  
+      MYSQL_ROOT_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
 
 volumes:
   mysqldata:
