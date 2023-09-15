@@ -1,8 +1,9 @@
-FROM php:8.2-fpm-alpine
+FROM php:8.2-fpm-alpine as app
 
 COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/local/bin/
 
-RUN install-php-extensions pdo pdo_mysql
+RUN set -eux;\
+    install-php-extensions pdo pdo_mysql
 
 # allow super user - set this if you use Composer as a
 # super user at all times like in docker containers
@@ -27,3 +28,12 @@ COPY ./app .
 
 # run composer dump-autoload --optimize
 RUN composer dump-autoload --optimize
+
+FROM app as app_dev
+
+ENV XDEBUG_MODE=off
+
+COPY ./php/conf.d/xdebug.ini /usr/local/etc/php/conf.d/xdebug.ini 
+
+RUN set -eux; \
+    install-php-extensions xdebug 
