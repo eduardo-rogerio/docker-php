@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
-        'name' => 'garyclarke/translatethis',
+        'name' => 'eduardo-rogerio/translatethis',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => 'b06861c96f882518d846520568da3d40c26fe5b8',
+        'reference' => 'ad201b40d9613350c1af147476de6158f11eff8b',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -19,10 +19,10 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
-        'garyclarke/translatethis' => array(
+        'eduardo-rogerio/translatethis' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => 'b06861c96f882518d846520568da3d40c26fe5b8',
+            'reference' => 'ad201b40d9613350c1af147476de6158f11eff8b',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -69,7 +69,7 @@
         'phpunit/php-code-coverage' => array(
             'pretty_version' => '9.2.x-dev',
             'version' => '9.2.9999999.9999999-dev',
-            'reference' => '55a161bb93e6a22a21c529515f7ddbb4d489b460',
+            'reference' => '7134a5ccaaf0f1c92a4f5501a6c9f98ac4dcc0ef',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/php-code-coverage',
             'aliases' => array(),
@@ -114,7 +114,7 @@
         'phpunit/phpunit' => array(
             'pretty_version' => '9.6.x-dev',
             'version' => '9.6.9999999.9999999-dev',
-            'reference' => 'bf8634b3ba03f344dd84c1a1107d57a96d5e6440',
+            'reference' => 'a122c2ebd469b751d774aa0f613dc0d67697653f',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpunit/phpunit',
             'aliases' => array(),
@@ -123,12 +123,10 @@
         'predis/predis' => array(
             'pretty_version' => 'v2.x-dev',
             'version' => '2.9999999.9999999.9999999-dev',
-            'reference' => '16bdd83d23b84a2182e129c63b1683a02c076556',
+            'reference' => '577bd398727a6fc953658563b1271e498f059098',
             'type' => 'library',
             'install_path' => __DIR__ . '/../predis/predis',
-            'aliases' => array(
-                0 => '9999999-dev',
-            ),
+            'aliases' => array(),
             'dev_requirement' => false,
         ),
         'psr/cache' => array(
@@ -325,7 +323,7 @@
         'symfony/cache' => array(
             'pretty_version' => '6.4.x-dev',
             'version' => '6.4.9999999.9999999-dev',
-            'reference' => '5303d1672713b0416999412ddf048eb6ee0c50b6',
+            'reference' => '4e8722e441e93bee860acdfec439585efbd49513',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/cache',
             'aliases' => array(),
@@ -360,9 +358,9 @@
             'dev_requirement' => false,
         ),
         'symfony/var-exporter' => array(
-            'pretty_version' => '7.0.x-dev',
-            'version' => '7.0.9999999.9999999-dev',
-            'reference' => '7947bc7665edc37fb647a96a177ce8d9d65fa064',
+            'pretty_version' => '6.4.x-dev',
+            'version' => '6.4.9999999.9999999-dev',
+            'reference' => '6eaba5813e2bc6b50d6557aec726f5a5cc709742',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/var-exporter',
             'aliases' => array(),

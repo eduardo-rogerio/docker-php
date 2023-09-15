@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "8.2",
+        "php": "^8.1",
         "ext-pdo": "*",
         "ext-pdo_mysql": "*",
         "symfony/cache": "^6.1",

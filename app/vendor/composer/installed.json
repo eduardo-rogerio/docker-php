@@ -330,12 +330,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "55a161bb93e6a22a21c529515f7ddbb4d489b460"
+                "reference": "7134a5ccaaf0f1c92a4f5501a6c9f98ac4dcc0ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/55a161bb93e6a22a21c529515f7ddbb4d489b460",
-                "reference": "55a161bb93e6a22a21c529515f7ddbb4d489b460",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/7134a5ccaaf0f1c92a4f5501a6c9f98ac4dcc0ef",
+                "reference": "7134a5ccaaf0f1c92a4f5501a6c9f98ac4dcc0ef",
                 "shasum": ""
             },
             "require": {
@@ -360,7 +360,7 @@
                 "ext-pcov": "PHP extension that provides line coverage",
                 "ext-xdebug": "PHP extension that provides line coverage as well as branch and path coverage"
             },
-            "time": "2023-09-04T05:23:23+00:00",
+            "time": "2023-09-12T14:36:20+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -394,7 +394,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
                 "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
-                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2"
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.28"
             },
             "funding": [
                 {
@@ -664,12 +664,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "bf8634b3ba03f344dd84c1a1107d57a96d5e6440"
+                "reference": "a122c2ebd469b751d774aa0f613dc0d67697653f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/bf8634b3ba03f344dd84c1a1107d57a96d5e6440",
-                "reference": "bf8634b3ba03f344dd84c1a1107d57a96d5e6440",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a122c2ebd469b751d774aa0f613dc0d67697653f",
+                "reference": "a122c2ebd469b751d774aa0f613dc0d67697653f",
                 "shasum": ""
             },
             "require": {
@@ -684,7 +684,7 @@
                 "phar-io/manifest": "^2.0.3",
                 "phar-io/version": "^3.0.2",
                 "php": ">=7.3",
-                "phpunit/php-code-coverage": "^9.2.13",
+                "phpunit/php-code-coverage": "^9.2.28",
                 "phpunit/php-file-iterator": "^3.0.5",
                 "phpunit/php-invoker": "^3.1.1",
                 "phpunit/php-text-template": "^2.0.3",
@@ -705,7 +705,7 @@
                 "ext-soap": "To be able to generate mocks based on WSDL files",
                 "ext-xdebug": "PHP extension that provides line coverage as well as branch and path coverage"
             },
-            "time": "2023-09-04T11:57:30+00:00",
+            "time": "2023-09-12T14:39:31+00:00",
             "bin": [
                 "phpunit"
             ],
@@ -745,7 +745,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.12"
             },
             "funding": [
                 {
@@ -770,12 +770,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/predis/predis.git",
-                "reference": "16bdd83d23b84a2182e129c63b1683a02c076556"
+                "reference": "577bd398727a6fc953658563b1271e498f059098"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/predis/predis/zipball/16bdd83d23b84a2182e129c63b1683a02c076556",
-                "reference": "16bdd83d23b84a2182e129c63b1683a02c076556",
+                "url": "https://api.github.com/repos/predis/predis/zipball/577bd398727a6fc953658563b1271e498f059098",
+                "reference": "577bd398727a6fc953658563b1271e498f059098",
                 "shasum": ""
             },
             "require": {
@@ -789,7 +789,7 @@
             "suggest": {
                 "ext-relay": "Faster connection with in-memory caching (>=0.6.2)"
             },
-            "time": "2023-08-25T21:27:24+00:00",
+            "time": "2023-09-14T16:44:52+00:00",
             "default-branch": true,
             "type": "library",
             "installation-source": "dist",
@@ -2014,12 +2014,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/cache.git",
-                "reference": "5303d1672713b0416999412ddf048eb6ee0c50b6"
+                "reference": "4e8722e441e93bee860acdfec439585efbd49513"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/cache/zipball/5303d1672713b0416999412ddf048eb6ee0c50b6",
-                "reference": "5303d1672713b0416999412ddf048eb6ee0c50b6",
+                "url": "https://api.github.com/repos/symfony/cache/zipball/4e8722e441e93bee860acdfec439585efbd49513",
+                "reference": "4e8722e441e93bee860acdfec439585efbd49513",
                 "shasum": ""
             },
             "require": {
@@ -2053,7 +2053,7 @@
                 "symfony/messenger": "^5.4|^6.0|^7.0",
                 "symfony/var-dumper": "^5.4|^6.0|^7.0"
             },
-            "time": "2023-08-17T08:45:59+00:00",
+            "time": "2023-09-11T16:39:34+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -2274,26 +2274,26 @@
         },
         {
             "name": "symfony/var-exporter",
-            "version": "7.0.x-dev",
-            "version_normalized": "7.0.9999999.9999999-dev",
+            "version": "6.4.x-dev",
+            "version_normalized": "6.4.9999999.9999999-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "7947bc7665edc37fb647a96a177ce8d9d65fa064"
+                "reference": "6eaba5813e2bc6b50d6557aec726f5a5cc709742"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/7947bc7665edc37fb647a96a177ce8d9d65fa064",
-                "reference": "7947bc7665edc37fb647a96a177ce8d9d65fa064",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/6eaba5813e2bc6b50d6557aec726f5a5cc709742",
+                "reference": "6eaba5813e2bc6b50d6557aec726f5a5cc709742",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.2"
+                "php": ">=8.1"
             },
             "require-dev": {
-                "symfony/var-dumper": "^6.4|^7.0"
+                "symfony/var-dumper": "^5.4|^6.0|^7.0"
             },
-            "time": "2023-07-31T15:04:40+00:00",
+            "time": "2023-08-17T15:49:45+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -2331,7 +2331,7 @@
                 "serialize"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-exporter/tree/7.0"
+                "source": "https://github.com/symfony/var-exporter/tree/6.4"
             },
             "funding": [
                 {
